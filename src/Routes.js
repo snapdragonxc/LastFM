@@ -3,8 +3,7 @@ import App from './client/App';
 import Home from './client/components/Home';
 import Artists from './client/components/Artists';
 import Artist from './client/components/Artist';
-
-
+//
 export default [
     {
         ...App,
@@ -13,7 +12,6 @@ export default [
                 path: '/',
                 exact: true,
                 ...Home,
-
             }, {
                 path: '/artists/:country',
                 exact: true,
