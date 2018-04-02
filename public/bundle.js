@@ -36415,6 +36415,7 @@ var _Artist2 = _interopRequireDefault(_Artist);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+//
 exports.default = [_extends({}, _App2.default, {
     routes: [_extends({
         path: '/',

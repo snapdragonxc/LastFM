@@ -22,6 +22,7 @@ export default (req, store) => {
                 <meta name="viewport" content="width=device-width, initial-scale=1">
                 <link rel="stylesheet" href="/css/uikit.min.css" />
                 <link rel="stylesheet" type="text/css" href="/style.css">
+                <link rel="shortcut icon" href="">
                 <style>
                     html { overflow-y: scroll; }
                 </style>
