@@ -38379,7 +38379,7 @@ var Artists = function (_Component) {
         _this.page = typeof _this.page === 'undefined' ? 1 : parseInt(_this.page);
         _this.minPage = 1;
         _this.maxPage = 1;
-        _this.canDraw = false;
+        _this.canDraw = true; // This does not allow server-side render if set to false
         // Add Listen function to monitor Browser Buttons
         _this.unlisten = _this.props.history.listen(function (location, action) {
             if (action === 'POP') {
@@ -39571,7 +39571,7 @@ var Artist = function (_Component) {
         _this.page = typeof _this.page === 'undefined' ? 1 : parseInt(_this.page);
         _this.minPage = 1;
         _this.maxPage = 1;
-        _this.canDraw = false;
+        _this.canDraw = true; // This does not allow server-side render if set to false
         // Add Listen function to monitor Browser Buttons
         _this.unlisten = _this.props.history.listen(function (location, action) {
             if (action === 'POP') {

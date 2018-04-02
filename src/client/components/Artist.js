@@ -11,7 +11,7 @@ class Artist extends Component {
         this.page = (typeof this.page === 'undefined') ? 1 : parseInt(this.page);
         this.minPage = 1;
         this.maxPage = 1;
-        this.canDraw = false; 
+        this.canDraw = true; // This does not allow server-side render if set to false
         // Add Listen function to monitor Browser Buttons
         this.unlisten = this.props.history.listen((location, action) => { 
             if( action === 'POP' ){
